@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;WebDriverCommands.SwitchBetweenAlerts&apos; to &apos;AlertWithOKButton&apos;&#x0D;&#x0A;- Original project: &apos;SeleniumW&apos;&#x0D;&#x0A;- Original element: &apos;WebDriverCommands.SwitchBetweenAlerts&apos;&#x0D;&#x0A;- Renamed element: &apos;WebDriverCommands.AlertWithOKButton&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;SwitchBetweenAlerts&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;WebDriverCommands{SwitchBetweenAlerts.java[SwitchBetweenAlerts" matchStrategy="1" name="AlertWithOKButton" qualified="false" references="true" similarDeclarations="false" stamp="1687156554384" textual="false" version="1.0"/>
+</session>

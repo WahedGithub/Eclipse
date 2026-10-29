@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.testng.eclipse.launchconfig">
+    <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="org.testng.remote.RemoteTestNG"/>
+    <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="SeleniumW"/>
+    <mapAttribute key="org.testng.eclipse.ALL_CLASS_METHODS">
+        <mapEntry key="TestNG.AssertionsTest" value="test2;test1"/>
+        <mapEntry key="TestNG.CustomListener" value="onTestSuccess;onTestFailure;onTestSkipped;onTestStart"/>
+        <mapEntry key="TestNG.DataDrivenTest" value="getTestData;halfEbayRegPageTest;tearDown;setUp"/>
+        <mapEntry key="TestNG.ExceptionTimeOutTest" value="test1"/>
+        <mapEntry key="TestNG.GoogleTest" value="test3;googleTitleTest;test2;setup;maillink;googlelogo;tearDown"/>
+        <mapEntry key="TestNG.GoogleTitleTest" value="googleTitleTest;googlelogo;setup;tearDown"/>
+        <mapEntry key="TestNG.InvocationCountTest" value="sum"/>
+        <mapEntry key="TestNG.MyTest" value="Test1;Test2"/>
+        <mapEntry key="TestNG.ParameterTest" value="yahooLoginTest"/>
+        <mapEntry key="TestNG.RetryAnalyzer" value="Test2;Test1"/>
+        <mapEntry key="TestNG.ScreenShotBase" value="failed;initialization"/>
+        <mapEntry key="TestNG.ScreenShotTest" value="LoginTest;SearchTest1;setUp;tearDown"/>
+        <mapEntry key="TestNG.TestNGBasics" value="LogOut;Login;deleteAllCookies;googleTitleTest;GooglelogoTest;enterURL;generateTestReport;closeBrowser;setUp;SearchTest;launchBrowser"/>
+        <mapEntry key="TestNG.TestNGFeatures" value="SearchPageTest;HomePageTest;RegPageTest;loginTest"/>
+    </mapAttribute>
+    <listAttribute key="org.testng.eclipse.CLASS_TEST_LIST">
+        <listEntry value="TestNG.ScreenShotTest"/>
+        <listEntry value="TestNG.GoogleTitleTest"/>
+        <listEntry value="TestNG.ParameterTest"/>
+        <listEntry value="TestNG.ScreenShotBase"/>
+        <listEntry value="TestNG.CustomListener"/>
+        <listEntry value="TestNG.RetryAnalyzer"/>
+        <listEntry value="TestNG.DataDrivenTest"/>
+        <listEntry value="TestNG.TestNGFeatures"/>
+        <listEntry value="TestNG.ExceptionTimeOutTest"/>
+        <listEntry value="TestNG.MyTest"/>
+        <listEntry value="TestNG.AssertionsTest"/>
+        <listEntry value="TestNG.InvocationCountTest"/>
+        <listEntry value="TestNG.GoogleTest"/>
+        <listEntry value="TestNG.TestNGBasics"/>
+    </listAttribute>
+    <listAttribute key="org.testng.eclipse.METHOD_TEST_LIST"/>
+    <listAttribute key="org.testng.eclipse.PACKAGE_TEST_LIST"/>
+    <stringAttribute key="org.testng.eclipse.PRE_DEFINED_LISTENERS" value=""/>
+    <intAttribute key="org.testng.eclipse.TYPE" value="1"/>
+</launchConfiguration>

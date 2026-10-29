@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Sanity" verbose="1">
+	
+	
+  <test name="Sanity Test">
+	 
+    <classes>
+      <class name="TestNG.ExceptionTimeOutTest"/>
+      <class name="TestNG.GoogleTest"/>
+      <class name="TestNG.GoogleTitleTest"/>
+      <class name="TestNG.InvocationCountTest"/>
+      <class name="TestNG.TestNGBasics"/>
+      <class name="TestNG.TestNGFeatures"/>
+    </classes>
+    
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->

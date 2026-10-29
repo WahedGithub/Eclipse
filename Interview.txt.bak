@@ -1,0 +1,61 @@
+Crud
+
+Create, read, update, delete.
+calibration, Movement, inventory, User page, login registration.
+
+Relatime Scenario: 
+User ID expirations:
+Screen Size alignment issue for mobile and desktop
+Data Driven handling issue
+radio button--> in survey cases randomly agree comment box didn't appeared there i used click on below element keyword near by element
+
+real time scenario 
+Previous project
+
+issues:
+Survey box algortihm disagree button was not coming all the time.
+
+Data handling:
+Pagination-WebTable: 
+
+date pickers previous issue.
+
+https://www.youtube.com/watch?v=_q82o00s7M8
+
+I have to enter a location in a text box but before that I have to capture and check what text/location is available in that box already, but on clicking on that particular element the text box is appearing empty so for that I just clicked on some other element to inspect and then move my curser towards that element and got the ID for it and captured the text value
+Handling Auto-Suggestive dropdown after entering the text it was taking time to populate the data
+
+Handling notifications Dailogs: Popup window(didn't have any close or cancel options) came on foreground as sson as the page is loaded then i tried clicking on any element on the main page but click command didn't work so I used actions class to click on the previous page
+
+Issue with the locators:
+
+Synchronization Issues: After submitting the page took too long to refresh or to move to the next page where my script was getting failed so as the button which needs to be clicked on new page was not visible so instead of waiting for the page to load i kept the wait timer for button to visible and then clicked on it.
+
+
+Single SignOn  which does by browser itself.
+
+masking --> for card number
+
+Java exceptions: Checked
+
+Logs in server: For Backend issues need to check in Logs--> for Exceptions, errors, failures due to code breakage,
+
+For phone number it was saved as String instead of integer in Dev code.
+
+Run: Batch script, Virtual machine setups to run the executions.
+
+Master we do our pull request and the Manager merge in the main branch.
+
+Parallel Testing: Method issue: If we use different browsers than it will be difficult to execute on priority, so here we have to use same browser.
+
+SQL: 
+
+SQL-practise.com
+
+Late nights or weekends mostly 
+
+headless only in one release.
+
+Confluence, 
+
+Survey page, workflows-account creation, read, edit, delete,

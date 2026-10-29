@@ -1,0 +1,84 @@
+{
+	"id": "cd785fe5-13f4-410d-85e2-482b331e7d7d",
+	"name": "Data Driven",
+	"timestamp": "2023-09-29T06:15:06.561Z",
+	"collection_id": "29776461-2a627faf-07ba-472c-89f2-19c7fe0baf11",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 4,
+	"delay": "3",
+	"persist": true,
+	"status": "error",
+	"startedAt": "2023-09-29T06:15:05.228Z",
+	"totalFail": 6,
+	"results": [
+		{
+			"id": "81ab5a9d-fe93-4745-8d04-f388b4771df9",
+			"name": "Create Employee",
+			"url": "https://dummy.restapiexample.com/api/v1/create",
+			"time": 123,
+			"responseCode": {
+				"code": 429,
+				"name": "Too Many Requests"
+			},
+			"tests": {
+				"check status code": false,
+				"check status in the response": false
+			},
+			"testPassFailCounts": {
+				"check Content-Type header": {
+					"pass": 1,
+					"fail": 0
+				},
+				"check status code": {
+					"pass": 1,
+					"fail": 3
+				},
+				"check status in the response": {
+					"pass": 1,
+					"fail": 3
+				},
+				"check status in the response in exact position": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				299,
+				140,
+				144,
+				123
+			],
+			"allTests": [
+				{
+					"check Content-Type header": true,
+					"check status code": true,
+					"check status in the response": true,
+					"check status in the response in exact position": true
+				},
+				{
+					"check status code": false,
+					"check status in the response": false
+				},
+				{
+					"check status code": false,
+					"check status in the response": false
+				},
+				{
+					"check status code": false,
+					"check status in the response": false
+				}
+			]
+		}
+	],
+	"count": 4,
+	"totalTime": 706,
+	"collection": {
+		"requests": [
+			{
+				"id": "81ab5a9d-fe93-4745-8d04-f388b4771df9",
+				"method": "POST"
+			}
+		]
+	}
+}

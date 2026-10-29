@@ -1,0 +1,38 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Abdul",
+      "location": "USA",
+      "salary": 12,
+      "age": 1
+    },
+    {
+      "id": 2,
+      "name": "Wahed",
+      "salary": 13,
+      "age": 2
+    },
+    {
+      "id": 3,
+      "name": "Zain",
+      "salary": 14,
+      "age": 3
+    },
+    {
+      "id": 4,
+      "name": "Ayesha",
+      "salary": 15,
+      "age": 4
+    },
+    {
+      "id": 5
+    },
+    {
+      "id": 6
+    },
+    {
+      "id": 7
+    }
+  ]
+}

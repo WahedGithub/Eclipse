@@ -1,0 +1,28 @@
+{
+  "id": "cdc3b81b-8f27-4e78-9dfe-161c637a206b",
+  "version": "2.0",
+  "name": "kj",
+  "url": "https://demo.guru99.com/test/newtours/",
+  "tests": [{
+    "id": "b847ecc3-3c4f-4ca8-8784-d6b775cd8fcf",
+    "name": "Test1",
+    "commands": [{
+      "id": "741c6d3f-3036-4242-82a3-9f36225df12d",
+      "comment": "",
+      "command": "",
+      "target": "name=userName",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "91d5ab56-861a-451a-97b1-95665671ac6a",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["b847ecc3-3c4f-4ca8-8784-d6b775cd8fcf"]
+  }],
+  "urls": [],
+  "plugins": []
+}
